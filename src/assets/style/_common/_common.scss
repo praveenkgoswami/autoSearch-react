@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+*{
+    outline: 0;
+}
+input {
+    padding: 4px 6px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    &.border{
+        td,th{
+            border: 1px solid;
+            padding: 15px;
+        }
+    }
+}
+
+.warpper{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}

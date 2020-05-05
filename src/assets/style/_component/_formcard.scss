@@ -1,0 +1,13 @@
+.data-list{
+    ul{
+        display: flex;
+        flex-flow: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        max-width: 300px;
+        list-style: none;
+        margin-bottom: 20px;
+    }
+}
